@@ -1,0 +1,8 @@
+David Tu
+david.tu2@csu.fullerton.edu
+
+This is a program which draws a teapot with two light sources (Based on Professor Shafae's hello_glsl program).
+The shaders used in this program uses the Gourand method of shading, which has the vertex shader calculate the color of every vertex and then passes this color to the fragment shader for interpolation.
+This results in fragments nearest to the vertex having the very similar color and fragments furthest from the vertex having a darker color.
+This is different from the Phong method of shading in which the color is calculated per fragment in the fragment shader and not per vertex.
+So the resulting shading using the Gourand method is the same as blinn-phong but less realistic.
