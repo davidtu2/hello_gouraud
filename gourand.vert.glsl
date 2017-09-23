@@ -1,4 +1,11 @@
 # version 120 
+// 
+// David Tu
+// david.tu2@csu.fullerton.edu
+// 
+// A toy program which renders a teapot and two light sources. 
+//
+//
 
 // These are passed in from the CPU program
 uniform mat4 modelViewMatrix;
