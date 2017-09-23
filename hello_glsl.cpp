@@ -219,8 +219,8 @@ public:
     initLights( );
     
     // Load shader program A
-    const char* vertexShaderSource_A = "gourand.vert.glsl";
-    const char* fragmentShaderSource_A = "gourand.frag.glsl";
+    const char* vertexShaderSource_A = "gouraud.vert.glsl";
+    const char* fragmentShaderSource_A = "gouraud.frag.glsl";
     FragmentShader fragmentShader_A(fragmentShaderSource_A);
     VertexShader vertexShader_A(vertexShaderSource_A);
     shaderProgram_A.attach(vertexShader_A);
@@ -237,7 +237,7 @@ public:
       exit(1);
     }
     
-        // Set up uniform variables for shader program A
+    // Set up uniform variables for shader program A
     uModelViewMatrix_A = glGetUniformLocation(shaderProgram_A.id( ), "modelViewMatrix");
     uProjectionMatrix_A = glGetUniformLocation(shaderProgram_A.id( ), "projectionMatrix");
     uNormalMatrix_A = glGetUniformLocation(shaderProgram_A.id( ), "normalMatrix");

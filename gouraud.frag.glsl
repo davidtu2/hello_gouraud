@@ -2,8 +2,6 @@
 // 
 // David Tu
 // david.tu2@csu.fullerton.edu
-// 
-// A toy program which renders a teapot and two light sources. 
 //
 //
 
